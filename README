@@ -4,8 +4,8 @@ does not support streams
 
 testHttp.pb.go provides a goji.Web Mux, which can be used with an go webserver
 
-it is designed to make on service available through json/http1 and grpc. 
-Therefore it depends on the grpc file created protoc-gen-go and adds a second file which with the http-api
+it is designed to make a service available through json/http1 and grpc. 
+Therefore it depends on the grpc file created protoc-gen-go and adds a second file for the json/http1-api
 
 example:
 ```
